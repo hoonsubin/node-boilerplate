@@ -1,8 +1,8 @@
-import app from './app';
+import app from './app.js';
 
 // the entry point for the server application
 (() => {
-    app().catch((e) => {
+    app().catch((e: Error) => {
         console.log(e);
     });
 })();

@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "nodenext",
         "esModuleInterop": true,
         "target": "esnext",
         "lib": ["esnext", "DOM", "DOM.Iterable"],
-        "moduleResolution": "node",
+        "moduleResolution": "nodenext",
         "sourceMap": true,
         "outDir": "build",
         "strict": true,
