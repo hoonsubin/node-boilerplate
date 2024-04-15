@@ -15,16 +15,15 @@
     "serve": "node ./build/index.js",
     "dev": "vite-node src/index.ts",
     "build": "tsc --project tsconfig.json",
-    "lint": "eslint '*/**/*.{mjs,mts,js,ts}' --quiet --fix",
-    "lint:check": "eslint '*/**/*.{mjs,mts,js,ts}'",
+    "format": "eslint '*/**/*.{mts,ts}' --quiet --fix",
+    "lint": "eslint '*/**/*.{mts,ts}'",
     "test": "NODE_ENV=test jest --verbose --coverage"
   },
   "devDependencies": {
+    "@eslint/js": "^9.0.0",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.7",
     "@types/node-fetch": "2.6.11",
-    "@typescript-eslint/eslint-plugin": "^7.7.0",
-    "@typescript-eslint/parser": "^7.7.0",
     "dotenv": "^16.4.5",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
@@ -35,6 +34,7 @@
     "prettier": "^3.2.5",
     "ts-jest": "^29.1.2",
     "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.0",
     "vite-node": "^1.5.0"
   },
   "packageManager": "yarn@4.1.1"
