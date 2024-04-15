@@ -7,7 +7,7 @@
   "private": true,
   "description": "A simple boilerplate for using node environment with TypeScript and full unit testing.",
   "engines": {
-    "node": ">=20.x.x"
+    "node": ">=20.9.x"
   },
   "scripts": {
     "start": "yarn run serve",
